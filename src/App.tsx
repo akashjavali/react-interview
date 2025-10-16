@@ -1,19 +1,15 @@
 function App() {
   return (
-    <div style={{ maxWidth: 600, margin: '40px auto' }}>
-      <h2>Customer List</h2>
+    <div className='max-w-xl my-20 mx-auto'>
+      <h1 className='text-center font-bold text-2xl'>User List</h1>
 
       <input
         placeholder='Search by name...'
-        style={{ marginBottom: 16, padding: 8, width: '100%' }}
+        className='mt-4 mb-4 p-2 w-full border rounded border-black'
       />
       {/* Table */}
       {
-        <table
-          width='100%'
-          cellPadding='8'
-          style={{ borderCollapse: 'collapse' }}
-        >
+        <table className='w-full ' width='100%'>
           <thead>
             <tr>
               <th>Name</th>
