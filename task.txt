@@ -1,0 +1,36 @@
+// TASK: Responsive, Filterable, Sortable User Table in React (30 mins)
+
+// Build a React component displaying a user list in a table layout.
+
+// You may use Tailwind CSS for styling and responsiveness if you prefer.
+
+// Requirements:
+1. Fetch a list of users from the API:
+    https://jsonplaceholder.typicode.com/users
+
+2. Display user info with columns:
+    - Name
+    - Email
+    - Company
+
+3. Add a search input that filters users by their name (case-insensitive).
+
+4. Implement responsive design:
+    - Table should adjust for both mobile and desktop screens.
+    - Tailwind CSS allowed!
+
+5. Show a loading state while fetching data.
+
+6. Handle API errors gracefully.
+
+7. Add basic accessibility features:
+    - Use appropriate aria-labels.
+    - Ensure keyboard-friendly navigation.
+
+8. Add clear code comments for maintainability.
+
+9. Allow sorting users by Name (ascending/descending).
+
+// Try to write clean, readable, and maintainable code.
+// Focus on important behaviors—filter, sort, response, error, good UX.
+// State all your assumptions and decisions in comments.
